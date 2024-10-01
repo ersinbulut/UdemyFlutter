@@ -1,6 +1,6 @@
 import 'dart:collection';
 
-import 'package:collections/Ogrenciler.dart';
+import 'Ogrenciler.dart';
 
 void main(){
 
@@ -21,7 +21,7 @@ void main(){
     var o = ogrenciler[a];
 
     print("**********");
-    print("Öğrenci no : ${o.no}");
+    print("Öğrenci no : ${o!.no}");
     print("Öğrenci ad : ${o.ad}");
     print("Öğrenci sınıf : ${o.sinif}");
   }

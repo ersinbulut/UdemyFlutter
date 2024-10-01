@@ -1,22 +1,22 @@
 import 'dart:io';
 
-import 'package:collections/Adres.dart';
-import 'package:collections/Personel.dart';
+import 'Adres.dart';
+import 'Personel.dart';
 
 void main(){
 
-  var personeller = List<Personel>();
+  var personeller = <Personel>[];
 
   for(var i=1;i<6;i++){//1,2,3,4,5
 
     print("$i. Personel ad : ");//1. Personel ad :
-    String isim = stdin.readLineSync();
+    String isim = stdin.readLineSync()!;
 
     print("$i. Personel adres il : ");
-    String il = stdin.readLineSync();
+    String il = stdin.readLineSync()!;
 
     print("$i. Personel adres ilçe : ");
-    String ilce = stdin.readLineSync();
+    String ilce = stdin.readLineSync()!;
 
     var adres = Adres(il,ilce);
 

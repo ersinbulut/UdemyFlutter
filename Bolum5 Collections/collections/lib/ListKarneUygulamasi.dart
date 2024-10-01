@@ -1,25 +1,25 @@
 import 'dart:io';
 
-import 'package:collections/DersNotlar.dart';
+import 'DersNotlar.dart';
 
 void main(){
 
-  var dersNotlariListesi = List<DersNotlar>();
+  var dersNotlariListesi = <DersNotlar>[];
 
   while(true){
 
     print("Dersin adını giriniz");
-    String ders = stdin.readLineSync();
+    String ders = stdin.readLineSync()!;
 
     print("Dersin notunu giriniz");
-    int not  = int.parse(stdin.readLineSync());
+    int not  = int.parse(stdin.readLineSync()!);
 
     var yeniNot = DersNotlar(ders,not);
 
     dersNotlariListesi.add(yeniNot);
 
     print("Çıkmak için (1) - Devam etmek için diğer sayılar");
-    int cikis  = int.parse(stdin.readLineSync());
+    int cikis  = int.parse(stdin.readLineSync()!);
 
     if(cikis == 1){
 

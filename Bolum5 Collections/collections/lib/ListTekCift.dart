@@ -1,6 +1,6 @@
 void main(){
 
-  var sayilar = List<int>();
+  var sayilar = <int>[];
 
   sayilar.add(1);
   sayilar.add(23);
@@ -11,8 +11,8 @@ void main(){
   sayilar.add(18);
   sayilar.add(54);
 
-  var tekler = List<int>();
-  var ciftler = List<int>();
+  var tekler = <int>[];
+  var ciftler = <int>[];
 
   for (var s in sayilar){
 

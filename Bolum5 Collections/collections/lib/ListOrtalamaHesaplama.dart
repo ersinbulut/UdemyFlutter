@@ -1,6 +1,6 @@
 void main(){
 
-  var sayilar = List<int>();
+  var sayilar = <int>[];
 
   sayilar.add(20);
   sayilar.add(100);

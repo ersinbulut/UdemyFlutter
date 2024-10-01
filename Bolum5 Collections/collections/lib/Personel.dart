@@ -1,4 +1,4 @@
-import 'package:collections/Adres.dart';
+import 'Adres.dart';
 
 class Personel{
   int no;

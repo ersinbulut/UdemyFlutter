@@ -1,5 +1,6 @@
 void main(){
-  var meyveler = List<String>();
+  var meyveler = <String>[];
+
 
   meyveler.add("Çilek");
   meyveler.add("Muz");

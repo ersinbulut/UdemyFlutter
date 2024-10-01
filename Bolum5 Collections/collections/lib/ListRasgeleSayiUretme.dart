@@ -2,7 +2,7 @@ import 'dart:math';
 
 void main(){
 
-  var sayilar = List<int>();
+  var sayilar = <int>[];
 
   var r = Random();
 

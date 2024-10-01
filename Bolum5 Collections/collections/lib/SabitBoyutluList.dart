@@ -1,6 +1,6 @@
 void main(){
 
-  var dizi = List<int>(5);
+  var dizi = <int>[5];
 
   dizi[0] = 10 ;//Veri ekleme
   dizi[1] = 20 ;

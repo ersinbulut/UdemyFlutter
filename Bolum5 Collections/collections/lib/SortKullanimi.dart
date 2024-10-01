@@ -1,4 +1,4 @@
-import 'package:collections/Ogrenciler.dart';
+import 'Ogrenciler.dart';
 
 void main(){
 
@@ -6,7 +6,7 @@ void main(){
   var o2 = Ogrenciler(200,"Mehmet","12A");
   var o3 = Ogrenciler(300,"Zeynep","9C");
 
-  var ogrenciler = List<Ogrenciler>();
+  var ogrenciler = <Ogrenciler>[];
 
   ogrenciler.add(o1);
   ogrenciler.add(o2);

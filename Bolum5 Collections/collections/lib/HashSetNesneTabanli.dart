@@ -1,6 +1,6 @@
 import 'dart:collection';
 
-import 'package:collections/Ogrenciler.dart';
+import 'Ogrenciler.dart';
 
 void main(){
   var o1 = Ogrenciler(100,"Ahmet","10F");

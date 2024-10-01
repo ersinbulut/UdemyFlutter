@@ -3,7 +3,7 @@ import 'dart:io';
 void main(){
 
 
-  var isimler = List<String>();
+  var isimler = <String>[];
 
   isimler.add("ahmet");
   isimler.add("mehmet");
@@ -12,7 +12,7 @@ void main(){
   isimler.add("ercan");
 
   print("Aratmak için isim giriniz");
-  String isim = stdin.readLineSync();
+  String isim = stdin.readLineSync()!;
 
   for(var i in isimler){
     if(i == isim){

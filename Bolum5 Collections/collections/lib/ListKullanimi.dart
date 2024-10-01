@@ -1,15 +1,10 @@
 void main(){
-
   //Tanımlama Yöntemleri
-  var sayilar = List();
-
-  var sonuclar = new List(); // new tercihen kullanılabilir etkisi yoktur.
-
-  var iller = List<String>();
-
-  var plakalar = [16,34,6];
-
-  var meyveler = List<String>();
+  var sayilar = <dynamic>[];
+  var sonuclar = <dynamic>[];
+  var iller = <String>[];
+  var plakalar = [16, 34, 6];  // Bu kullanım zaten doğru
+  var meyveler = <String>[];
 
   meyveler.add("Çilek");
   meyveler.add("Muz");
