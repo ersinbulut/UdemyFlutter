@@ -1,0 +1,128 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "align_center_kullanimi",
+            "cwd": "align_center_kullanimi",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "align_center_kullanimi (profile mode)",
+            "cwd": "align_center_kullanimi",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "align_center_kullanimi (release mode)",
+            "cwd": "align_center_kullanimi",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "container_kullanimi",
+            "cwd": "container_kullanimi",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "container_kullanimi (profile mode)",
+            "cwd": "container_kullanimi",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "container_kullanimi (release mode)",
+            "cwd": "container_kullanimi",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "hizalama_islemleri",
+            "cwd": "hizalama_islemleri",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "hizalama_islemleri (profile mode)",
+            "cwd": "hizalama_islemleri",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "hizalama_islemleri (release mode)",
+            "cwd": "hizalama_islemleri",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "karisik_kullanim",
+            "cwd": "karisik_kullanim",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "karisik_kullanim (profile mode)",
+            "cwd": "karisik_kullanim",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "karisik_kullanim (release mode)",
+            "cwd": "karisik_kullanim",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "row_column_stack_calismasi",
+            "cwd": "row_column_stack_calismasi",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "row_column_stack_calismasi (profile mode)",
+            "cwd": "row_column_stack_calismasi",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "row_column_stack_calismasi (release mode)",
+            "cwd": "row_column_stack_calismasi",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "tasarim_giris",
+            "cwd": "tasarim_giris",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "tasarim_giris (profile mode)",
+            "cwd": "tasarim_giris",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "tasarim_giris (release mode)",
+            "cwd": "tasarim_giris",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}
