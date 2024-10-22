@@ -30,7 +30,7 @@ class _MyHomePageState extends State<MyHomePage> {
     var ekranBilgisi = MediaQuery.of(context);
     final double ekranYuksekligi = ekranBilgisi.size.height;
     final double ekranGenisligi = ekranBilgisi.size.width;
-
+//test
     return Scaffold(
       backgroundColor: Colors.deepPurple,
       body: Center(
