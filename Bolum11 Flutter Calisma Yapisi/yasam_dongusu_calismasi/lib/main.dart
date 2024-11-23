@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:yasam_dongusu_calismasi/SayfaA.dart';
+import 'SayfaA.dart';
 
 void main() {
   runApp(MyApp());
