@@ -60,7 +60,7 @@ class _AnasayfaState extends State<Anasayfa> with WidgetsBindingObserver {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-           RaisedButton(
+           ElevatedButton(
              child: Text("Tıkla"),
              onPressed: (){
                Navigator.push(context, MaterialPageRoute(builder: (context) => SayfaA()));

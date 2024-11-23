@@ -43,13 +43,13 @@ class _AnasayfaState extends State<Anasayfa> {
                 visible: kontrol,
                 child: Text("Merhaba")
             ),
-            RaisedButton(
+            ElevatedButton(
               child: Text("Durum 1"),
               onPressed: (){
                 setState(() {kontrol = true;});
               },
             ),
-            RaisedButton(
+            ElevatedButton(
               child: Text("Durum 2"),
               onPressed: (){
                 setState(() {kontrol = false;});
